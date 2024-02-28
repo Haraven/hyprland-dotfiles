@@ -1,4 +1,7 @@
 [Dolphin]
 SortHiddenLast=true
-Timestamp=2023,4,28,17,7,1.2349999999999999
+Timestamp=2024,2,22,13,7,15.079
 Version=4
+
+[Settings]
+HiddenFilesShown=true

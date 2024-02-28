@@ -1,3 +1,4 @@
+echo "Dic sapientiae: Soror mea es, et prudentiam voca amicam tuam"
 set -g fish_greeting
 
 if status is-interactive
@@ -23,3 +24,5 @@ abbr mkdir 'mkdir -p'
 
 # Fixes "Error opening terminal: xterm-kitty" when using the default kitty term to open some programs through ssh
 alias ssh='kitten ssh'
+
+alias explorer='dolphin'

@@ -42,7 +42,10 @@ Icon_TelaBlue|/usr/share/icons
 Icon_TelaBlue|$HOME/.icons
 Icon_Gruvbox|/usr/share/icons
 Icon_Gruvbox|$HOME/.icons
+Icon_Flatery|/usr/share/icons
+Icon_Flatery-Dark|/usr/share/icons
 Cursor_Gruvbox|/usr/share/icons
 Cursor_Gruvbox|$HOME/.icons
 Cursor_BibataIce|/usr/share/icons
 Cursor_BibataIce|$HOME/.icons
+Cursor_VolantesCursors|$HOME/.icons

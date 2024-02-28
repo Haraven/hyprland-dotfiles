@@ -34,6 +34,7 @@ if pkg_installed grub && [ -f /boot/grub/grub.cfg ]
         case ${grubopt} in
             1) grubtheme="Retroboot";;
             2) grubtheme="Pochita";;
+            3) grubtheme="Sleek";;
             *) grubtheme="None";;
         esac
 
