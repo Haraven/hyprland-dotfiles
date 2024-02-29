@@ -3,8 +3,11 @@ brave-bin
 clickup
 discord
 git-lfs
+gnome-calculator
 gnome-keyring
 gwenview
+kde-connect
+libreoffice-fresh
 mailspring-bin
 neovim
 nwg-displays
@@ -14,6 +17,6 @@ rambox-pro-bin
 ttf-noto-nerd
 vlc
 xampp
-yay
+xdg-desktop-portal-kde
 yarn
 zotero-bin
