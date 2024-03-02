@@ -1,20 +1,22 @@
 {
-  "editor.fontSize": 12,
   "editor.scrollbar.verticalScrollbarSize": 10,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "security.workspace.trust.startupPrompt": "never",
   "security.workspace.trust.enabled": false,
   "editor.minimap.side": "left",
-  "editor.fontFamily": "'NotoSans Nerd Font', 'NotoSans Nerd Font', 'NotoSans Nerd Font'",
-  "extensions.autoUpdate": false,
+  "editor.fontFamily": "'NotoSansM Nerd Font Mono', 'NotoSansM Nerd Font Mono', 'NotoSansM Nerd Font Mono'",
   "terminal.external.linuxExec": "kitty",
   "terminal.explorerKind": "both",
   "terminal.sourceControlRepositoriesKind": "both",
   "telemetry.telemetryLevel": "off",
   "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.colorTheme": "Gruvbox Dark Medium",
   "window.menuBarVisibility": "toggle",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "underline",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "git.confirmSync": false,
+  "terminal.integrated.fontSize": 11,
+  "editor.fontSize": 13
 }

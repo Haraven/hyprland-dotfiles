@@ -26,3 +26,14 @@ abbr mkdir 'mkdir -p'
 alias ssh='kitten ssh'
 
 alias explorer='dolphin'
+
+function fish_remove_path
+  if set -l index (contains -i "$argv" $fish_user_paths)
+    set -e fish_user_paths[$index]
+    echo "Removed $argv from the path"
+  end
+end
+
+fish_add_path /opt/flutter/bin
+fish_add_path $HOME/Android/Sdk/platform-tools
+fish_add_path /usr/bin/brave

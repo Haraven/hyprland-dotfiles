@@ -1,6 +1,7 @@
 [Dolphin]
 SortHiddenLast=true
-Timestamp=2024,2,22,13,7,15.079
+SortRole=type
+Timestamp=2024,2,29,11,0,7.462
 Version=4
 
 [Settings]
