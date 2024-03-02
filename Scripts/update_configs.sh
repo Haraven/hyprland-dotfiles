@@ -24,9 +24,9 @@ cp $user_configs/fish/config.fish $repo_configs/.config/fish/
 
 # GTK-3
 echo "Copying GTK-3 bookmarks..."
-cp $user_configs/gtk-3.0/bookmarks $repo_configs/.config/gtk-3/
+cp $user_configs/gtk-3.0/bookmarks $repo_configs/.config/gtk-3.0/
 echo "Copying GTK-3 settings..."
-cp $user_configs/gtk-3.0/settings.init $repo_configs/.config/gtk-3/
+cp $user_configs/gtk-3.0/settings.ini $repo_configs/.config/gtk-3.0/
 
 # Hyprland
 echo "Copying Hyprland configs..."
@@ -34,7 +34,7 @@ cp -r $user_configs/hypr/ $repo_configs/.config/
 
 # Kitty
 echo "Copying Kitty themes..."
-cp $user_configs/kitty/themes/ $repo_configs/.config/kitty/
+cp -r $user_configs/kitty/themes/ $repo_configs/.config/kitty/
 echo "Copying Kitty config..."
 cp $user_configs/kitty/kitty.conf $repo_configs/.config/kitty/
 
@@ -44,7 +44,7 @@ cp -r $user_configs/Kvantum/ $repo_configs/.config/
 
 # LSD
 echo "Copying LSD settings..."
-cp $user_configs/lsd/ $repo_configs/.config/
+cp -r $user_configs/lsd/ $repo_configs/.config/
 
 # neofetch
 echo "Copying neofetch settings..."
@@ -60,15 +60,15 @@ cp $user_configs/octopi/octopi.conf $repo_configs/.config/octopi/
 
 # qt5ct
 echo "Copying qt5ct settings..."
-cp $user_configs/qt5ct/ $repo_configs/.config/
+cp -r $user_configs/qt5ct/ $repo_configs/.config/
 
 # qt6ct
 echo "Copying qt6ct settings..."
-cp $user_configs/qt6ct/ $repo_configs/.config/
+cp -r $user_configs/qt6ct/ $repo_configs/.config/
 
 # Rofi
 echo "Copying Rofi settings..."
-cp $user_configs/rofi/ $repo_configs/.config/
+cp -r $user_configs/rofi/ $repo_configs/.config/
 
 # Swaylock
 echo "Copying Swaylock settings..."
@@ -76,15 +76,15 @@ cp $user_configs/swaylock/config $repo_configs/.config/swaylock/
 
 # swww
 echo "Copying swww settings..."
-cp $user_configs/swww/ $repo_configs/.config/
+cp -r $user_configs/swww/ $repo_configs/.config/
 
 # waybar
 echo "Copying waybar settings..."
-cp $user_configs/waybar/ $repo_configs/.config/
+cp -r $user_configs/waybar/ $repo_configs/.config/
 
 # wlogout
 echo "Copying wlogout settings..."
-cp $user_configs/wlogout/ $repo_configs/.config/
+cp -r $user_configs/wlogout/ $repo_configs/.config/
 
 # xdg-desktop-portal
 echo "Copying xdg-desktop-portal settings..."
