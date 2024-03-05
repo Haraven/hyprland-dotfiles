@@ -14,10 +14,11 @@ window#waybar {
 }
 
 tooltip {
+    opacity: 0.8;
     background: @main-bg;
     color: @main-fg;
     border-radius: 8px;
-    border-width: 0px;
+    border-width: 1px;
 }
 
 #workspaces button {
