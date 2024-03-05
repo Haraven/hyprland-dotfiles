@@ -16,19 +16,28 @@
 
 	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","wlr/taskbar","hyprland/window","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","custom/weather","idle_inhibitor","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","","custom/l_end","bluetooth","custom/myupdates","tray","hyprland/language","pulseaudio#microphone","pulseaudio","backlight","battery","custom/r_end","custom/l_end","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","","custom/l_end","bluetooth","tray","hyprland/language","pulseaudio#microphone","pulseaudio","backlight","battery","custom/myupdates","custom/r_end","custom/l_end","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
 
     "hyprland/workspaces": {
+        "format": "{icon}",
         "disable-scroll": true,
         "rotate": 0,
         "all-outputs": false,
         "active-only": false,
         "on-click": "activate",
         "persistent-workspaces": {
-        }
+            "eDP-1": [ 1, 3, 4, 7, 9 ],
+            "HDMI-A-1": [ 2, 5, 6, 8, 10 ] 
+        },
+        "format-icons": {
+            "urgent": "",
+			"active": "",
+			"default": "󰧞",
+        },
+        "sort-by-number": true
     },
 
 	"wlr/taskbar": {
@@ -121,15 +130,6 @@
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{icon} {device_battery_percentage}%"
     },
 
-    "custom/myupdates": {
-        "exec": "~/.config/hypr/scripts/customsystemupdate.sh",
-        "return-type": "json",
-        "format": "󰮯 {}",
-        "on-click": "~/.config/hypr/scripts/customsystemupdate.sh up",
-        "interval": 86400, // once every day
-        "tooltip": true,
-    },
-
     "tray": {
         "icon-size": 19,
         "rotate": 0,
@@ -199,6 +199,15 @@
         "format-plugged": " {capacity}%",
         "format-alt": "{time} {icon}",
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    },
+
+    "custom/myupdates": {
+        "exec": "~/.config/hypr/scripts/customsystemupdate.sh",
+        "return-type": "json",
+        "format": "{} ⟳",
+        "on-click": "~/.config/hypr/scripts/customsystemupdate.sh up",
+        "interval": 86400, // once every day
+        "tooltip": true,
     },
 
     "custom/power": {

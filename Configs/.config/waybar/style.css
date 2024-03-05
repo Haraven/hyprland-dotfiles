@@ -42,14 +42,14 @@ tooltip {
 }
 
 #workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
+    color: crimson;
+    background: @main-bg;
     border-radius: 7px;
 }
 
 #workspaces button:hover {
-    background: #11111b;
-    color: #cdd6f4;
+    background: @main-bg;
+    color: @wb-hvr-fg;
     border-radius: 7px;
 }
 
@@ -82,7 +82,7 @@ tooltip {
 }
 
 #taskbar button:hover {
-    background: @wb-hvr-bg;
+    background: @main-bg;
     color: @wb-hvr-color;
     opacity: 0.7;
     animation: tb_hover 20s ease-in-out 1;
