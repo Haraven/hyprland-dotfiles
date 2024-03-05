@@ -4,7 +4,7 @@
             "warning": 30,
             "critical": 20
         },
-        "format": "{icon} {capacity}%",
+        "format": "{capacity}% {icon}",
         "rotate": ${r_deg},
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
