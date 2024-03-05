@@ -16,7 +16,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","wlr/taskbar","hyprland/window","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","custom/weather","idle_inhibitor","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","custom/myupdates","custom/cliphist","custom/r_end","custom/l_end","bluetooth","tray","hyprland/language","pulseaudio#microphone","pulseaudio","backlight","battery","custom/r_end","custom/l_end","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","","custom/l_end","bluetooth","custom/myupdates","tray","hyprland/language","pulseaudio#microphone","pulseaudio","backlight","battery","custom/r_end","custom/l_end","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -25,7 +25,7 @@
         "disable-scroll": true,
         "rotate": 0,
         "all-outputs": false,
-        "active-only": true,
+        "active-only": false,
         "on-click": "activate",
         "persistent-workspaces": {
         }
@@ -106,26 +106,6 @@
         }
     },
 
-    "custom/myupdates": {
-        "exec": "~/.config/hypr/scripts/customsystemupdate.sh",
-        "return-type": "json",
-        "format": "󰮯 {}",
-        "on-click": "~/.config/hypr/scripts/customsystemupdate.sh up",
-        "interval": 86400, // once every day
-        "tooltip": true,
-    },
-
-    "custom/cliphist": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰅇 clipboard history",
-        "on-click": "sleep 0.1 && ~/.config/hypr/scripts/cliphist.sh c",
-        "on-click-right": "sleep 0.1 && ~/.config/hypr/scripts/cliphist.sh d",
-        "on-click-middle": "sleep 0.1 && ~/.config/hypr/scripts/cliphist.sh w",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-
     "bluetooth": {
         "format": "",
         "rotate": 0,
@@ -139,6 +119,15 @@
         "tooltip-format-connected": "{controller_alias}\n{num_connections} connected\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{icon} {device_battery_percentage}%"
+    },
+
+    "custom/myupdates": {
+        "exec": "~/.config/hypr/scripts/customsystemupdate.sh",
+        "return-type": "json",
+        "format": "󰮯 {}",
+        "on-click": "~/.config/hypr/scripts/customsystemupdate.sh up",
+        "interval": 86400, // once every day
+        "tooltip": true,
     },
 
     "tray": {

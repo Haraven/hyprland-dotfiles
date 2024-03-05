@@ -37,3 +37,4 @@ end
 fish_add_path /opt/flutter/bin
 fish_add_path $HOME/Android/Sdk/platform-tools
 fish_add_path /usr/bin/brave
+set -gx CHROME_EXECUTABLE /opt/brave-bin/brave

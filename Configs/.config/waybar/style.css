@@ -18,7 +18,7 @@ tooltip {
     background: @main-bg;
     color: @main-fg;
     border-radius: 8px;
-    border-width: 1px;
+    border-width: 0px;
 }
 
 #workspaces button {

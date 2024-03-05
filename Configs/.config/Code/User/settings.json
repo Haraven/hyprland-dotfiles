@@ -18,5 +18,16 @@
   "editor.scrollbar.horizontalScrollbarSize": 10,
   "git.confirmSync": false,
   "terminal.integrated.fontSize": 11,
-  "editor.fontSize": 13
+  "editor.fontSize": 13,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  }
 }

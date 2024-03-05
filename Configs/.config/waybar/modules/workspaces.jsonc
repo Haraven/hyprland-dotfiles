@@ -2,7 +2,7 @@
         "disable-scroll": true,
         "rotate": ${r_deg},
         "all-outputs": false,
-        "active-only": true,
+        "active-only": false,
         "on-click": "activate",
         "persistent-workspaces": {
         }
