@@ -22,4 +22,4 @@
 0|28|left|( custom/power custom/cliphist custom/wbar custom/theme custom/wallchange ) ( idle_inhibitor clock custom/spotify )|( wlr/taskbar )|( tray ) ( backlight network bluetooth pulseaudio pulseaudio#microphone )
 0|28|top|( custom/power custom/cliphist custom/wbar custom/theme custom/wallchange ) ( idle_inhibitor clock custom/spotify )|( wlr/taskbar )|( tray ) ( backlight network bluetooth pulseaudio pulseaudio#microphone )
 0|28|right|( custom/power custom/cliphist custom/wbar custom/theme custom/wallchange ) ( idle_inhibitor clock custom/spotify )|( wlr/taskbar )|( tray ) ( backlight network bluetooth pulseaudio pulseaudio#microphone )
-1|32|top|( hyprland/workspaces wlr/taskbar hyprland/window )|( custom/weather idle_inhibitor clock )| ( bluetooth custom/myupdates tray hyprland/language pulseaudio#microphone pulseaudio backlight battery ) ( custom/power )
+1|32|top|( hyprland/workspaces wlr/taskbar hyprland/window )|( custom/weather idle_inhibitor clock )| ( bluetooth tray hyprland/language pulseaudio#microphone pulseaudio backlight battery custom/myupdates ) ( custom/power )

@@ -2,7 +2,7 @@
 
 # Check release
 if [ ! -f /etc/arch-release ] ; then
-    exit 0
+    exit
 fi
 
 # source variables
@@ -29,12 +29,12 @@ upd=$(( ofc + aur + fpk ))
 
 # Show tooltip
 if [ $upd -eq 0 ] ; then
-    echo "{\"text\":\"$upd\", \"tooltip\":\" Packages are up to date\"}"
+    echo "{\"text\":\"\", \"tooltip\":\" Packages are up to date\"}"
 else
     echo "{\"text\":\"$upd\", \"tooltip\":\"󱓽 Official $ofc\n󱓾 AURs $aur$fpk_disp\"}"
 fi
 
 # Trigger upgrade
 if [ "$1" == "up" ] ; then
-    kitty --title systemupdate sh -c "sudo pacman -Sy && sudo powerpill -Su && ${aurhlpr} -Su $fpk_exup && read -p \"Press [Enter] to exit.\""
+    kitty --title systemupdate sh -c "echo -e \"\033[36;1mSYSTEM UPDATE\033[0m\" && echo -e \"---\" && sudo pacman -Sy && sudo powerpill -Su && ${aurhlpr} -Su $fpk_exup && echo -e \"---\" && echo -e \"Press [\033[37;1mEnter\033[0m] to exit.\" && read"
 fi
