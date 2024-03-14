@@ -117,5 +117,9 @@
         "key": "ctrl+shift+`",
         "command": "-workbench.action.terminal.new",
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+alt+[Backquote]",
+        "command": "workbench.action.terminal.toggleTerminal"
     }
 ]
