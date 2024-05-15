@@ -1,3 +1,5 @@
+**UPDATE**: This repo is no longer being maintained! I am no longer using Hyprland. If you clone or fork this, it's up to you to get it working.
+
 ###### *<div align = right><sub>// design by t2</sub></div>*
 <div align = center><img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_banner.png"><br><br>
 
